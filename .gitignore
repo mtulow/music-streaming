@@ -161,6 +161,10 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+# GCP Keys
+config/gcp/infra-service-account.json
+config/gcp/prefect-service-account.json
+
 # Terraform
 infra/
 *.terraform*
@@ -168,3 +172,4 @@ infra/
 *.tfstate.*
 *.tfplan
 infra/plan.out
+
