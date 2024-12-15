@@ -1,0 +1,10 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers-extra/features/scala-sdkman:2": {
+      "jdkVersion": "8",
+      "jdkDistro": "tem"
+    },
+    "ghcr.io/bartventer/arch-devcontainer-features/gcloud-cli:1": {}
+  }
+}
