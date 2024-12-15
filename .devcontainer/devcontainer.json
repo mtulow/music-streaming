@@ -1,10 +1,12 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers-extra/features/scala-sdkman:2": {
-      "jdkVersion": "8",
-      "jdkDistro": "tem"
+    "ghcr.io/ebaskoro/devcontainer-features/sdkman:1": {},
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "8", "jdkDistro": "tem"
     },
+    "ghcr.io/devcontainers-extra/features/sbt-sdkman:2": {},
+    "ghcr.io/devcontainers-extra/features/scala-sdkman:2": {},
     "ghcr.io/bartventer/arch-devcontainer-features/gcloud-cli:1": {}
   }
 }
